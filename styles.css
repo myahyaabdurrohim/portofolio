@@ -1,0 +1,85 @@
+body {
+    background: url(bgh.jpg);
+    background-size: contain;
+    color: #FFFFFF;
+}
+
+/* Style untuk header */
+header {
+    background-color: rgba(0, 0, 0, 0.666);
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 100px;
+}
+
+/* Style untuk navbar */
+nav {
+    background-color: rgba(0, 0, 0, 0.464);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 32%;
+    padding-right: 20%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.profil {
+    border: 2px solid #ed1924;
+    border-radius: 80px;
+    transition: 0.5s;
+}
+
+img:hover {
+    width: 250px;
+    height: auto;
+}
+
+
+/* Style untuk setiap section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.666);
+    border: 1px solid #ddd;
+}
+
+/* Style untuk footer */
+footer {
+    background-color: rgb(31, 30, 30);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    color: white;
+}
+
+footer a {
+    color: #149ddd;
+}
+
+/* Style untuk teks dalam section */
+section p {
+    line-height: 1.6;
+}
+
+/* Style untuk tautan (links) di navbar */
+nav a:hover {
+    color: #ff9900;
+}
